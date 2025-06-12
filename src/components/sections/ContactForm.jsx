@@ -40,7 +40,7 @@ const ContactForm = () => {
                   value={formData.name}
                   onChange={(e) => updateField('name', e.target.value)}
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                  placeholder="John Doe"
+                  placeholder="name"
                 />
               </div>
               <div>
@@ -50,7 +50,7 @@ const ContactForm = () => {
                   value={formData.email}
                   onChange={(e) => updateField('email', e.target.value)}
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                  placeholder="john@company.com"
+                  placeholder="name@company.com"
                 />
               </div>
             </div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
                 value={formData.phone}
                 onChange={(e) => updateField('phone', e.target.value)}
                 className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all"
-                placeholder="+92 300 1234567"
+                placeholder="+12 300 1234567"
               />
             </div>
             
